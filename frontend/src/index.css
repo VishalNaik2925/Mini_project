@@ -1,0 +1,4 @@
+/* index.css or App.css (if you use it globally) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
