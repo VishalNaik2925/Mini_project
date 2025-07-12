@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "concurrently": "^9.1.0"
+    "concurrently": "^9.1.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "concurrently \"npm start --prefix frontend\" \"npm run server --prefix backend\"",
