@@ -5,7 +5,8 @@
   },
   "scripts": {
     "start": "concurrently \"npm start --prefix frontend\" \"npm run server --prefix backend\"",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "build": "react-scripts build"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
